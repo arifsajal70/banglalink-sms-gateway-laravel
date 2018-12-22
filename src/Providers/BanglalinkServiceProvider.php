@@ -24,8 +24,6 @@ class BanglalinkServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->mergeConfigFrom(__DIR__.'/../../config/banglalinkSmsGateway.php', 'BanglalinkSmsGateway');
-
         $this->app->singleton('banglalinksmsgatewaylaravel', function ($app) {
             return new BanglalinkServices();
         });
