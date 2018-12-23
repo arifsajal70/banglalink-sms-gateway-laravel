@@ -22,7 +22,7 @@ Arifsajal\BanglalinkSmsGatewayLaravel\Providers\BanglalinkServiceProvider::class
 And for Facade Support, Add Below Line In `aliases` Section
  
 ```php
-"Banglalink" => Arifsajal\\BanglalinkSmsGatewayLaravel\\Facades\\Banglalink::class
+"Banglalink" => Arifsajal\BanglalinkSmsGatewayLaravel\Facades\\Banglalink::class
 ```
 Than run below command
 
@@ -49,9 +49,8 @@ license. Please see the [license file](license.md) for more information.
 
 [ico-packagist-version]: https://img.shields.io/badge/Packagist-1.0-brightgreen.svg
 [ico-github-version]: https://img.shields.io/badge/Github-1.0-brightgreen.svg
-[ico-downloads]: https://img.shields.io/packagist/dt/arifsajal/banglalinksmsgatewaylaravel.svg?style=flat-square
 
-[link-packagist]: https://packagist.org/packages/arifsajal/banglalinksmsgatewaylaravel
+[link-packagist]: https://packagist.org/packages/arifsajal/banglalink-sms-gateway-laravel
 [link-github]: https://github.com/arifsajal70/banglalink-sms-gateway-laravel
 [link-author]: https://github.com/arifsajal70
 [link-contributors]: ../../contributors
